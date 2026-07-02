@@ -123,7 +123,7 @@ export function Navbar() {
   return (
     <header
       id="glow-navbar"
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-[9999] isolate transition-all duration-300 ${
         isScrolled
           ? 'bg-glow-bg/90 backdrop-blur-md border-b border-glow-border/50 py-4 shadow-sm'
           : 'bg-transparent py-6'
@@ -194,7 +194,7 @@ export function Navbar() {
         <button
           id="mobile-menu-toggle"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          className="flex md:hidden items-center justify-center w-11 h-11 rounded-full border border-glow-border/60 text-glow-text hover:bg-glow-primary/5 focus:outline-none focus:ring-2 focus:ring-glow-primary transition-colors duration-300"
+          className="relative z-50 flex md:hidden items-center justify-center w-11 h-11 rounded-full border border-glow-border/60 text-glow-text hover:bg-glow-primary/5 focus:outline-none focus:ring-2 focus:ring-glow-primary transition-colors duration-300"
           aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
         >
           {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}

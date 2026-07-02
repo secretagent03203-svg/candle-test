@@ -192,7 +192,7 @@ export default function App() {
                 <div className="absolute -inset-4 bg-gradient-to-tr from-glow-secondary/25 to-glow-accent/15 rounded-[2.5rem] blur-2xl opacity-70 pointer-events-none" />
 
                 {/* Exquisite Rounded Image Container */}
-                <div className="relative w-full h-full rounded-[2rem] overflow-hidden shadow-2xl border border-glow-border/60 bg-white">
+                <div className="absolute inset-0 w-full h-full rounded-[2rem] overflow-hidden shadow-2xl border border-glow-border/60 bg-white">
                   <img
                     src={heroCandleImage}
                     alt="Premium luxury GlowNest handmade scented candle inside a beautiful textured ceramic jar on a wooden plate with organic elements"
@@ -278,7 +278,7 @@ export default function App() {
               {/* Left Column: Large lifestyle image with reveal animation */}
               <div className="lg:col-span-5 relative w-full aspect-[3/4] max-w-md mx-auto lg:max-w-none">
                 <div className="absolute -inset-4 bg-glow-secondary/10 rounded-[2.5rem] blur-xl pointer-events-none" />
-                <div className="relative w-full h-full rounded-[2rem] overflow-hidden shadow-xl border border-glow-border/40 bg-white">
+                <div className="absolute inset-0 w-full h-full rounded-[2rem] overflow-hidden shadow-xl border border-glow-border/40 bg-white">
                   <img
                     src={aboutCandleImage}
                     alt="Artisanal soy candle making workspace with organic dried flowers, botanicals, and delicate pouring setups"
@@ -433,7 +433,7 @@ export default function App() {
                       src={product.image}
                       alt={`${product.name} luxury handcrafted soy candle`}
                       referrerPolicy="no-referrer"
-                      className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110"
+                      className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110"
                     />
                     {/* Fragrance badge absolute */}
                     <div className="absolute top-4 left-4 z-10">
