@@ -1,0 +1,6 @@
+{
+  "name": "GlowNest Candles",
+  "description": "Premium handmade candle marketing website encouraging connections and orders via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
