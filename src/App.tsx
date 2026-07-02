@@ -4,15 +4,15 @@ import { Container } from './components/Container';
 import { Button } from './components/Button';
 import { Flame, Compass, Heart, HelpCircle, Mail, Sparkles, Star, Leaf, Clock, Truck, Users, Gift, X, ChevronLeft, ChevronRight, Camera, Quote, ChevronDown, MapPin, Phone, Instagram, Facebook, ArrowUp, Send } from 'lucide-react';
 
-const heroCandleImage = '/images/glownest_hero_candle_1782942919979.jpg';
-const aboutCandleImage = '/images/glownest_about_candle_1782978156379.jpg';
+const heroCandleImage = 'https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=1200&q=80';
+const aboutCandleImage = 'https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=1200&q=80';
 
-const candleVanillaImg = '/images/glownest_vanilla_1782978430549.jpg';
-const candleLavenderImg = '/images/glownest_lavender_1782978443296.jpg';
-const candleOceanImg = '/images/glownest_ocean_1782978455888.jpg';
-const candleRoseImg = '/images/glownest_rose_1782978465958.jpg';
-const candleSandalwoodImg = '/images/glownest_sandalwood_1782978477123.jpg';
-const candleGiftboxImg = '/images/glownest_giftbox_1782978487614.jpg';
+const candleVanillaImg = 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=800&q=80';
+const candleLavenderImg = 'https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=800&q=80';
+const candleOceanImg = 'https://images.unsplash.com/photo-1509223197845-458d87318791?auto=format&fit=crop&w=800&q=80';
+const candleRoseImg = 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80';
+const candleSandalwoodImg = 'https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80';
+const candleGiftboxImg = 'https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=800&q=80';
 
 const galleryItems = [
   {
